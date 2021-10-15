@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/consultar.js"></script>
+        <script type="text/javascript" src="js/guardar.js"></script>
+        <script type="text/javascript" src="js/eliminar.js"></script>
+    </head>
+    <body>
+        <h1>Mis Gatos</h1>
+        <h4>Registra un gato</h4>
+        ID <input type="number" id="id" /> <br/>
+        Nombre <input type="text" id="nombre" /> <br/>
+        Edad <input type="number" id="edad" /> <br/>
+        Color <input type="text" id="color" /> <br/>
+        <button onclick="guardar()">Guardar</button>
+
+        <h4>Gatos Registrados</h4>
+        <button onclick="consultar()">Consultar Datos</button>
+        <div id="tabla">
+            <!-- Esto es un comentario en html, y
+            puede ser multilinea -->
+        </div>
+    </body>
+</html>
